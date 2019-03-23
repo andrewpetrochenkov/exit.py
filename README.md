@@ -1,8 +1,12 @@
-[![](https://img.shields.io/pypi/pyversions/exit.svg?longCache=True)](https://pypi.org/pypi/exit/)
-[![](https://img.shields.io/pypi/v/exit.svg?maxAge=3600)](https://pypi.org/pypi/exit/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/exit.svg?longCache=True)](https://pypi.org/project/exit/)
+[![](https://img.shields.io/pypi/v/exit.svg?maxAge=3600)](https://pypi.org/project/exit/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/exit.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/exit.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install exit
 ```
@@ -12,9 +16,9 @@ $ [sudo] pip install exit
 +   `SIGKILL`, `SIGSTOP` or `os._exit()` not supported
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`exit.register(func=None, signals=[<Signals.SIGTERM: 15>])`|Register a function which will be executed on exit
+`exit.register(func=None, signals=[<Signals.SIGTERM: 15>])` |Register a function which will be executed on exit
 
 #### Examples
 ```python
@@ -28,4 +32,6 @@ function|description
 #### Links
 +   [How to always execute exit functions in Python](http://grodola.blogspot.com/2016/02/how-to-always-execute-exit-functions-in-py.html)
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
