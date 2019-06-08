@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/pypi/pyversions/exit.svg?longCache=True)](https://pypi.org/project/exit/)
@@ -33,5 +34,5 @@ function|`__doc__`
 +   [How to always execute exit functions in Python](http://grodola.blogspot.com/2016/02/how-to-always-execute-exit-functions-in-py.html)
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
