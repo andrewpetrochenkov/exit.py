@@ -1,3 +1,6 @@
+__all__ = ['register']
+
+
 """
 based on http://grodola.blogspot.com/2016/02/how-to-always-execute-exit-functions-in-py.html
 """
@@ -5,7 +8,6 @@ based on http://grodola.blogspot.com/2016/02/how-to-always-execute-exit-function
 import atexit
 import os
 import functools
-import public
 import signal
 import sys
 
@@ -13,7 +15,7 @@ import sys
 _registered_exit_funs = set()
 _executed_exit_funs = set()
 
-@public.add
+
 def register(func=None, signals=[signal.SIGTERM]):
     """Register a function which will be executed on exit"""
 
